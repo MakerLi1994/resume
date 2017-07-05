@@ -1,0 +1,64 @@
+/*css*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}/*清除margin/padding值*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}/*取消边框和点击效果*/
+ul, ol {
+    list-style: none;
+}/*取消列表前面的小点*/
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family:"Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}/*设置字体*/
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}/*设置字体大小*/
+textarea {
+    resize: none;
+}
+/*用户不能操纵机制调节元素的尺寸*/
+img {
+    border: 0;
+    vertical-align: middle;
+}/*取消边框 图文中线对齐*/
+table {
+    border-collapse: collapse;
+}/*表格外边框合并*/
+body {
+    font: 14px/150% Arial, Verdana, "\5b8b\4f53";
+    color: rgb(51, 51, 51);
+    background: #fff;
+}/*字体大小14px，行高1.5倍，颜色为rgb(51, 51, 51)（黑色），背景颜色为rgb(255, 255, 255)白色*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}/*清除浮动*/
+
+.clearfix {
+    *zoom: 1;
+}/*兼容IE6,7*/
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}/*标题取消下划线，取消加粗*/
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}/*s，i，em标签取消下划线，取消所有效果*/
+.col-red {
+    color: #C81623 !important;
+}/*字体直接变为深红色*/
+/*-------------------------------------------------*/
